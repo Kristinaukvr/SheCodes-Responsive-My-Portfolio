@@ -1,13 +1,46 @@
+
 h1 {
   font-family: "DM Serif Display", serif;
   font-size: 48px;
 }
 h2 {
-    font-family: "DM Serif Display", serif;
-    font-size: 25px;
-    font-weight: 200;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-weight: 200;
 }
 
 p {
   font-family: "Poppins", sans-serif;
+}
+.hero-section {
+  background-color: #a39885;
+  text-align: center;
+  padding: 150px 20px ;
+  margin-bottom: 50px;
+}
+
+.hero-section p {
+  font-size: 36px;
+  font-weight: bold;
+}
+.hero-section h1 {
+  font-size: 85px;
+  color: white;
+}
+.hero-section h2 {
+  font-size: 50px;
+}
+
+.experience-section {
+    background-color: #212529;
+    padding: 50px;
+
+}
+
+.experience-section h2 {
+    color: white;
+    font-size: 35px;
+}
+.experience-section p {
+    color: white;
 }
