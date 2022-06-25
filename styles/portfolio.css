@@ -72,3 +72,14 @@ p {
   color: var(--primary-color);
   background-color: white;
 }
+
+.about-hero-section {
+  background-color: var(--secondary-color);
+  padding: 50px 20px;
+}
+.about-hero-section h1 {
+  color: white;
+}
+.about-hero-section p {
+  margin: 0 30px 0 0;
+}
