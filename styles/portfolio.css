@@ -1,11 +1,11 @@
 :root {
-    --primary-color: #1C1D1E; 
-    --secondary-color: #a39885;
-    --title-font: "DM Serif Display", serif;
-    --main-font:  "Poppins", sans-serif;
+  --primary-color: #1c1d1e;
+  --secondary-color: #a39885;
+  --title-font: "DM Serif Display", serif;
+  --main-font: "Poppins", sans-serif;
 }
 body {
-  line-height: 2.0;
+  line-height: 2.5;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h2 {
 }
 
 p {
-  font-family: var(--main-font)
+  font-family: var(--main-font);
 }
 
 .homepage-paragraph {
@@ -60,9 +60,15 @@ p {
 }
 .button-one {
   background: var(--primary-color);
-  border: none;
+  border-color: var(--primary-color);
+  border-style: solid;
   color: white;
   padding: 15px 20px;
   text-decoration: none;
   font-size: 18px;
+  transition: all 200ms ease-in-out;
+}
+.button-one:hover {
+  color: var(--primary-color);
+  background-color: white;
 }
