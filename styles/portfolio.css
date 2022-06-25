@@ -1,18 +1,26 @@
-body {
-  line-height: 2;
+:root {
+    --primary-color: #1C1D1E; 
+    --secondary-color: #a39885;
+    --title-font: "DM Serif Display", serif;
+    --main-font:  "Poppins", sans-serif;
 }
+body {
+  line-height: 2.0;
+}
+
 h1 {
-  font-family: "DM Serif Display", serif;
+  font-family: var(--title-font);
   font-size: 48px;
 }
+
 h2 {
-  font-family: "DM Serif Display", serif;
+  font-family: var(--title-font);
   font-size: 25px;
   font-weight: 200;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--main-font)
 }
 
 .homepage-paragraph {
@@ -21,7 +29,7 @@ p {
   text-align: center;
 }
 .hero-section {
-  background-color: #a39885;
+  background-color: var(--secondary-color);
   text-align: center;
   padding: 150px 20px;
 }
@@ -39,7 +47,7 @@ p {
 }
 
 .experience-section {
-  background-color: #212529;
+  background-color: var(--primary-color);
   padding: 50px;
 }
 
@@ -51,7 +59,7 @@ p {
   color: white;
 }
 .button-one {
-  background: #212529;
+  background: var(--primary-color);
   border: none;
   color: white;
   padding: 15px 20px;
