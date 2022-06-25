@@ -1,4 +1,7 @@
-
+body {
+    line-height: 2;
+    
+}
 h1 {
   font-family: "DM Serif Display", serif;
   font-size: 48px;
@@ -12,11 +15,17 @@ h2 {
 p {
   font-family: "Poppins", sans-serif;
 }
+
+.homepage-paragraph {
+    margin: 20px 30px;
+    padding: 50px;
+    text-align: center;
+}
 .hero-section {
   background-color: #a39885;
   text-align: center;
-  padding: 150px 20px ;
-  margin-bottom: 50px;
+  padding: 150px 20px;
+  
 }
 
 .hero-section p {
@@ -32,15 +41,21 @@ p {
 }
 
 .experience-section {
-    background-color: #212529;
-    padding: 50px;
-
+  background-color: #212529;
+  padding: 50px;
 }
 
 .experience-section h2 {
-    color: white;
-    font-size: 35px;
+  color: white;
+  font-size: 35px;
 }
 .experience-section p {
+  color: white;
+}
+.button-one {
+    background: #212529;
     color: white;
+    padding: 15px 20px;
+    text-decoration: none;
+    
 }
