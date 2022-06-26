@@ -87,6 +87,12 @@ p {
   display: flex;
   justify-content: center;
   color: var(--secondary-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
+}
+.email-link:hover {
+    color: var(--primary-color);
+}
+.navbar-brand {
+    font-size: 30px;
 }
