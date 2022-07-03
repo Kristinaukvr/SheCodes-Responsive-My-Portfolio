@@ -4,9 +4,6 @@
   --title-font: "DM Serif Display", serif;
   --main-font: "Poppins", sans-serif;
 }
-body {
-  line-height: 2.5;
-}
 
 h1 {
   font-family: var(--title-font);
@@ -21,6 +18,7 @@ h2 {
 
 p {
   font-family: var(--main-font);
+  line-height: 2.5;
 }
 
 .general-paragraph {
@@ -29,7 +27,10 @@ p {
   text-align: center;
 }
 .hero-section {
-  background-color: var(--secondary-color);
+  background-image: url(/Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   text-align: center;
   padding: 150px 20px;
 }
@@ -44,6 +45,19 @@ p {
 }
 .hero-section h2 {
   font-size: 50px;
+}
+@media (max-width: 900px) {
+  .hero-section h1 {
+    font-size: 65px;
+  }
+  .hero-section h2 {
+    font-size: 43px;
+  }
+  .general-paragraph {
+    margin: 20px 30px;
+    padding: 25px;
+    text-align: center;
+  }
 }
 
 .experience-section {
@@ -104,7 +118,7 @@ footer .social-media-icons a {
   margin: 0 20px;
   color: white;
   background: var(--primary-color);
-  padding: 5px 20px;
+  padding: 15px 20px;
   border-style: solid;
   border-radius: 50%;
   font-size: 20px;
